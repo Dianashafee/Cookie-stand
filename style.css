@@ -1,20 +1,48 @@
 table{
-    border: 1px solid green ;
+    border: 5px solid rgb(18, 143, 143) ;
     border-collapse: collapse;
     
     margin: auto;
+   text-align: center;
+   color: cornsilk;
+   text-shadow: 0 0 10px black,
+                 0 0 20px rgb(67, 187, 161),
+                 0 0 40px #10cebe,
+                 0 0 80px #28a8a8,
+                 0 0 160px #085664;
    
   
 }
 tr{
-    border : 1px solid green;
+    border : 1px solid rgb(18, 143, 143);
     width: 100px ;
     width: 150% ;
 }
 
 td{
-    border : 1px solid green;
+    border : 1px solid rgb(18, 143, 143);
     height: 50px ;
     text-align: center;
+    
+}
+
+* {
+    font-style: italic;
+
+}
+#title{
+    text-align: center;
+    font-size: 500%;
+    color: #ffffff;
+    text-shadow: 0 0 10px black,
+                 0 0 20px rgb(67, 187, 161),
+                 0 0 40px #10cebe,
+                 0 0 80px #28a8a8,
+                 0 0 160px #085664;
+}
+body{
+
+    background: url(https://png.pngtree.com/thumb_back/fw800/background/20200224/pngtree-black-and-grey-wall-image-background-image_330369.jpg);
+    background-repeat: no-repeat;
     
 }
