@@ -1,0 +1,167 @@
+/* body{
+    margin: 0;
+    padding: 0;
+    background: #262626;
+    font-family: sans-serif;
+}
+
+.container{
+    width : 1280px ;
+    min-height: 500px;
+    background: #fff;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container .box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: cornflowerblue;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    
+}
+.container .box .imgBox{
+    position: relative;
+    overflow: hidden;
+}
+.container .box .imgBox img{
+    max-width: 100%;
+    transform: transform 2s;
+}
+
+.container .box:hover .imgBox img{
+    transform: scale(1.2);
+} */
+
+h1{
+    text-align: center;
+    font-size: 500%;
+    color: black;
+    font-style: italic;
+}
+
+.team-img{
+    border-radius: 50%;
+    margin-left: 150px;
+    display: inline;
+    
+    
+    
+    
+}
+.team-img img{
+    text-align: center;
+    border-radius: 50%;
+    width: 175px;
+
+
+}
+.team{
+    display: flex;
+}
+body{
+    background:url(https://png.pngtree.com/thumb_back/fw800/background/20200224/pngtree-black-and-grey-wall-image-background-image_330369.jpg);
+
+
+}
+h1:hover{
+    /* cursor: pointer;
+    letter-spacing: 5ps;
+    font-weight: 500; */
+    margin-left: 10px;
+    color: #ffffff;
+    text-shadow: 0 0 10px black,
+                 0 0 20px rgb(67, 187, 161),
+                 0 0 40px #10cebe,
+                 0 0 80px #28a8a8,
+                 0 0 160px #085664;
+}
+
+h3{
+    text-align: center;
+    font-size: 300% ;
+}
+
+.row{
+    display: table;
+    clear: both;
+    font-family: cursive;
+    display: flex;
+}
+
+.column {
+    float: left;
+    width:24.99999%;
+    padding: 10px ;
+    height: 520;
+}
+.column1{
+    float: left;
+    width:50%;
+    padding: 10px ;
+    height: 520;
+    
+    
+    
+}
+h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: white
+    
+
+}
+p2{
+    font-size: 15;
+    font-family: cursive;
+    color: white;
+    font: outline;
+    text-align: center;
+    
+}
+.row img{
+    width: 100%;
+    height: 50%;
+}
+.row p{
+    background-color: white;
+    height: 50 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row h2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    height: 60;
+    line-height: 1.5;
+    
+}
+
+h2 {
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-style: oblique;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 55;
+    box-sizing: border-box;
+    display: block;
+    font-size: 50px;
+    height: 260.4px;
+    line-height: 22.5px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 32px;
+    text-align: center;
+    text-size-adjust: 100%;
+
+}
