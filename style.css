@@ -46,3 +46,11 @@ body{
     
     
 }
+.form{
+    color: wheat;
+    
+}
+#lable1{
+    font-size: 20px ;
+    font-style: italic;
+}
