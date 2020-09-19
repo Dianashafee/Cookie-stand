@@ -46,8 +46,9 @@ body{
     
     
 }
-.form{
+#input-form{
     color: wheat;
+    text-align: center;
     
 }
 #lable1{

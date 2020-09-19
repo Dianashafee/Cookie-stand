@@ -6,42 +6,59 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body id="body-page">
-    <main>
-        <div class="form">
-           
-        <form action="" id="Add-information">
-            <fieldset>
-                <p></p>
+<!-- <body id="body-page"> -->
 
-            <label for="locationField" id="lable1">Location</label>
-            <input type="text" id="locationField">
-
-             <label for="minField" id="lable1">Input a Minimum value </label>
-             <input type="number" id="minField">
-            
-             <label for="maxField" id="lable1">Input a Maximum value</label>
-             <input type="number" id= "maxField">
-           
-             <label for="avr-field" id="lable1">Input Average Cookies Per Hour</label>
-             <input type="number" id= "avrField">
-
-             <input type="submit" value="Add information">
-            
-            </fieldset>
-        </form>
     
-       </div>
+    <!-- <div id="unorderedList"></div> -->
+    <br>
+    <br>
+    <br>
+
+    <div id="title">Table of Cookie Stand!
+    </div>
+    <br>
+    <br>
+    <br>
+    
+    <main>
+        <br>		<br>
+		<form id="input-form">
+			<fieldset>
 
 
+					<legend><br></br></legend>
+				<label for="name" id="lable1" >Location Name:</label>
+				<input name="locationName" type="text" />
+
+				<label for="min" id="label1" >Minimum Customers:</label>
+				<input name="minCustomers" type="text" maxlength="4" />
+
+				<label for="max" id="lable1" >Maximum Customers:</label>
+				<input name="maxCustomers" type="text" maxlength="4" />
+
+				<label for="aveCookSale" id="lable1" >Average Sale Per Customer:</label>
+				<input name="avgCookiesPerCustomer" type="text" maxlength="4" />
+
+				<button type="submit">Add Location</button>
 
 
-        <div id="unorderedList"></div>
-        <div id="title">Table of Cookie Stand!
-        </div>
+			</fieldset>
+
+
+        </form>
         <br>
         <br>
-        <br>
+
+        <table id="sales-data">
+            <thead id="the-header"></thead>
+            <tbody id="table-data"></tbody>
+            <tfoot id="the-footer"></tfoot>
+        </table>
+        
+
+
+
+
         
     </main>
     <script src="JS/app.js"></script>
